@@ -39,28 +39,80 @@
           <!-- full-calculation-inputField-starts -->
           <div class="half-width inputdiv-bgcolor-padding">
             <div class="flex-justify-center">
-              <h4 class="text-center">Income</h4>
+              <h4 class="text-center font-size margin-bottom">Income</h4>
               <form action="">
-                <p>
-                  <label for="income-field">Income :</label>
-                  <input type="text" name="" id="income-field" />
+                <p class="margin-bottom">
+                  <label class="font-size-weight" for="income-field"
+                    >Income :</label
+                  >
+                  <input
+                    class="input-field"
+                    type="text"
+                    name=""
+                    id="income-field"
+                  />
                 </p>
               </form>
-              <h4 class="text-center">Expenses</h4>
+              <h4 class="text-center font-size margin-bottom">Expenses</h4>
               <form action="">
-                <p>
-                  <label for="food-field">Food:</label>
-                  <input type="text" name="" id="food-field" />
+                <p class="margin-bottom">
+                  <label class="font-size-weight" for="food-field">Food:</label>
+                  <input
+                    class="input-field"
+                    type="text"
+                    name=""
+                    id="food-field"
+                  />
                 </p>
-                <p>
-                  <label for="rent-field">Rent:</label>
-                  <input type="text" name="" id="rent-field" />
+                <p class="margin-bottom">
+                  <label class="font-size-weight" for="rent-field">Rent:</label>
+                  <input
+                    class="input-field"
+                    type="text"
+                    name=""
+                    id="rent-field"
+                  />
                 </p>
-                <p>
-                  <label for="clothes-field">Clothes:</label>
-                  <input type="text" name="" id="clothes-field" />
+                <p class="margin-bottom">
+                  <label class="font-size-weight" for="clothes-field"
+                    >Clothes:</label
+                  >
+                  <input
+                    class="input-field"
+                    type="text"
+                    name=""
+                    id="clothes-field"
+                  />
                 </p>
               </form>
+              <button class="btn-calculate-save" id="btn-calculate">
+                Calculate
+              </button>
+              <h3 class="font-size margin-bottom" id="total-expenses">
+                Total Expenses:<span>0000</span>
+              </h3>
+              <h3 class="font-size margin-bottom" id="balance">
+                Balance:<span>0000</span>
+              </h3>
+              <p class="margin-bottom font-size-weight">
+                Save:<input
+                  class="input-field"
+                  type="text"
+                  name=""
+                  id="save-input"
+                />%
+                <span
+                  ><button class="btn-calculate-save margin-left" id="btn-save">
+                    Save
+                  </button></span
+                >
+              </p>
+              <h3 class="font-size margin-bottom" id="saving-amount">
+                Saving Amount:<span>0000</span>
+              </h3>
+              <h3 class="font-size" id="remaining-balance">
+                Remaining Balance:<span>0000</span>
+              </h3>
             </div>
           </div>
           <!-- full-calculation-inputField-starts -->
