@@ -1,0 +1,29 @@
+/* browser-default-off */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* custom-property */
+:root {
+  --heading-color: #2989ff;
+}
+/* common-utilities */
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.text-center {
+  text-align: center;
+}
+
+/* heading-starts*/
+.heading-color-position {
+  color: var(--heading-color);
+  margin: 2rem 0 2rem 0;
+}
+.heading-img {
+  width: 2rem;
+}
+/* heading-ends*/
