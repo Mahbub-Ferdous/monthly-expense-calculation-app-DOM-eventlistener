@@ -126,4 +126,41 @@ form input {
 /* for inputfield alignment */
 /* full-calculation-inputField-ends */
 
-
+/* mobile device media queries */
+@media (max-width: 480px) {
+  .horizontal-padding {
+    padding: 0;
+  }
+  .heading-color-position {
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+  }
+  .flex-align {
+    flex-direction: column;
+  }
+  .half-width {
+    width: 100%;
+    height: auto;
+  }
+  .margin-bottom {
+    margin-top: 1rem;
+  }
+  .inputdiv-bgcolor-padding {
+    padding: 0;
+    margin-right: 0;
+  }
+  .flex-justify-center {
+    margin-bottom: 2rem;
+  }
+  .font-size {
+    font-size: 1.4rem;
+  }
+  .mobile-width {
+    width: 25%;
+  }
+  .mobile-padding {
+    padding: 0 15px;
+  }
+}
+/* mobile device media queries */
