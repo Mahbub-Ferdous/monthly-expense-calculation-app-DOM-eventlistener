@@ -53,7 +53,7 @@ body {
   margin-left: 2rem;
   margin-bottom: 0.6rem;
   border: none;
-  font-size: var(--primary-font-size);
+  /* font-size: var(--primary-font-size); */
   font-weight: var(--secondary-font-size);
 }
 /* common-utilities-ends */
@@ -96,16 +96,16 @@ form input {
 }
 /* for inputfield alignment */
 .font-size-weight {
-  font-size: var(--primary-font-size);
+  /* font-size: var(--primary-font-size); */
   font-weight: var(--secondary-font-weight);
 }
 .font-size {
-  font-size: var(--secondary-font-size);
+  /* font-size: var(--secondary-font-size); */
   font-weight: var(--primary-font-weight);
   color: var(--inputDiv-text-color);
 }
 .margin-bottom {
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.4rem;
 }
 .left-margin {
   margin-left: 16px;
