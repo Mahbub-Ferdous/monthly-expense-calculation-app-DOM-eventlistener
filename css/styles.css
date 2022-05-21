@@ -142,7 +142,7 @@ form input {
 /* full-calculation-inputField-ends */
 
 /* mobile device media queries */
-@media (max-width: 480px) {
+@media (max-width: 780px) {
   .horizontal-padding {
     padding: 0;
   }
