@@ -44,7 +44,7 @@ document.getElementById("btn-calculate").addEventListener("click", () => {
       parseFloat(foodAmount) +
       parseFloat(rentAmount) +
       parseFloat(clothesAmount);
-      totalExpenseField.innerText = totalExpense;
+    totalExpenseField.innerText = totalExpense;
   } else if (
     foodAmount != "number" &&
     rentAmount != "number" &&

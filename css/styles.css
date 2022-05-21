@@ -43,7 +43,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.btn-calculate-save {
+.btn-calculate {
   cursor: pointer;
   background-color: var(--btn-bg-color);
   color: #ffffff;
@@ -51,6 +51,18 @@ body {
   height: 2.3rem;
   margin-top: 1.5rem;
   margin-left: 2rem;
+  margin-bottom: 0.6rem;
+  border: none;
+  /* font-size: var(--primary-font-size); */
+  font-weight: var(--secondary-font-size);
+}
+.btn-save {
+  cursor: pointer;
+  background-color: var(--btn-bg-color);
+  color: #ffffff;
+  width: 4rem;
+  height: 2.3rem;
+  margin-top: 1.5rem;
   margin-bottom: 0.6rem;
   border: none;
   /* font-size: var(--primary-font-size); */
