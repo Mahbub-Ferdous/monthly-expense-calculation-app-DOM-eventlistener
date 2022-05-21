@@ -20,7 +20,7 @@
   --divPrimary-width: 70%;
   --divPrimary-height: 70%;
 }
-/* common-utilities */
+/* common-utilities-starts */
 html,
 body {
   font-family: "Courier New", Courier, monospace;
@@ -43,11 +43,6 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.d-felx {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .btn-calculate-save {
   cursor: pointer;
   background-color: var(--btn-bg-color);
@@ -61,6 +56,7 @@ body {
   font-size: var(--primary-font-size);
   font-weight: var(--secondary-font-size);
 }
+/* common-utilities-ends */
 
 /* heading-starts*/
 .heading-color-position {
@@ -78,7 +74,7 @@ body {
   align-items: center;
   justify-content: space-around;
 }
-/* main-calculation-part-starts */
+/* main-calculation-part-ends */
 
 /* full-calculation-inputField-starts */
 .inputdiv-bgcolor-padding {
@@ -98,6 +94,7 @@ form label,
 form input {
   display: table-cell;
 }
+/* for inputfield alignment */
 .font-size-weight {
   font-size: var(--primary-font-size);
   font-weight: var(--secondary-font-weight);
@@ -110,6 +107,9 @@ form input {
 .margin-bottom {
   margin-bottom: 0.6rem;
 }
+.left-margin {
+  margin-left: 16px;
+}
 .input-field {
   border: none;
   outline: none;
@@ -120,8 +120,10 @@ form input {
   font-size: 18px;
   padding: 5px 5px 5px 15px;
 }
-.margin-left{
+.margin-left {
   margin-left: 0;
 }
 /* for inputfield alignment */
 /* full-calculation-inputField-ends */
+
+

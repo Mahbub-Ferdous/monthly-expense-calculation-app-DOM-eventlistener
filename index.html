@@ -43,7 +43,7 @@
               <form action="">
                 <p class="margin-bottom">
                   <label class="font-size-weight" for="income-field"
-                    >Income :</label
+                    >Income<span class="left-margin">:</span></label
                   >
                   <input
                     class="input-field"
@@ -88,15 +88,15 @@
               <button class="btn-calculate-save" id="btn-calculate">
                 Calculate
               </button>
-              <h3 class="font-size margin-bottom" id="total-expenses">
-                Total Expenses:<span>0000</span>
+              <h3 class="font-size margin-bottom">
+                Total Expenses:<span id="total-expense">0000</span>
               </h3>
-              <h3 class="font-size margin-bottom" id="balance">
-                Balance:<span>0000</span>
+              <h3 class="font-size margin-bottom">
+                Balance:<span id="balance">0000</span>
               </h3>
-              <p class="margin-bottom font-size-weight">
+              <p class="margin-bottom font-size-weight mobile-padding">
                 Save:<input
-                  class="input-field"
+                  class="input-field mobile-width"
                   type="text"
                   name=""
                   id="save-input"
@@ -107,20 +107,15 @@
                   </button></span
                 >
               </p>
-              <h3 class="font-size margin-bottom" id="saving-amount">
-                Saving Amount:<span>0000</span>
+              <h3 class="font-size margin-bottom">
+                Saving Amount:<span id="saving-amount">0000</span>
               </h3>
-              <h3 class="font-size" id="remaining-balance">
-                Remaining Balance:<span>0000</span>
+              <h3 class="font-size">
+                Remaining Balance:<span id="remaining-balance">0000</span>
               </h3>
             </div>
           </div>
-          <!-- full-calculation-inputField-starts -->
-          <!-- <div class="half-width inputdiv-bgcolor">
-            <h4 class="text-center">Income</h4>
-            <label for="">Income:</label>
-            <input type="text" name="" id="" />
-          </div> -->
+          <!-- full-calculation-inputField-ends -->
         </div>
         <!-- main-calculation-part-ends -->
       </section>
