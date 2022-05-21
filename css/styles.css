@@ -130,10 +130,13 @@ form input {
   height: 25px;
   margin-bottom: 0.6rem;
   font-size: 18px;
-  padding: 5px 5px 5px 15px;
+  padding: 5px 0;
 }
 .margin-left {
   margin-left: 0;
+}
+.mobile-width {
+  width: 25%;
 }
 /* for inputfield alignment */
 /* full-calculation-inputField-ends */
